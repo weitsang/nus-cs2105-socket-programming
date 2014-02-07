@@ -150,7 +150,7 @@ class WebServer {
 				
 				// Read the content 1KB at a time.
 				byte[] buffer = new byte[1024];
-				FileInputStream fis = new FileInputStream(f);
+				FileInputStream fis = new FileInputStream(file);
 				int size = fis.read(buffer);
 				while (size > 0) 
 				{
